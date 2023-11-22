@@ -8,7 +8,7 @@ run:
 push:
 	git add .
 	git commit -a -m="${m}"
-	git push origin master
+	git push origin main
 
 format:
 	black app/*.py app/*/*.py app/*/*/*.py app/database/models/*.py
